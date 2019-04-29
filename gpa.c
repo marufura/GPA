@@ -53,9 +53,17 @@ int main(void){
             printf("\n");
             printf("                             君は参加権すらないよ！来年はいい成績とってね！\n");
             printf("\n");
+            printf("                                                                     〜fin〜\n");
             printf("        -----------------------------------------------------------------------------\n");
             printf("\n");
-            exit(0);
+            sleep(2);
+            printf("      と思ったけど...\n");
+            sleep(2);
+            printf("           かわいそうだからGPAを0.5プレゼント！\n");
+            printf("\n");
+            gpa+=50;
+            break;
+            
         }else{
             break;
         }
